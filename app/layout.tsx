@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Inter as FontSans } from "next/font/google";
 
 import { cn } from "@/lib/utils";
+import {SideDashboard} from "@/components/SideDashboard";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -19,10 +20,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          fontSans.variable,
         )}
       >
-       {children}
+        <main className="flex flex-row">
+          <SideDashboard />
+          {children}
+        </main>
       </body>
     </html>
   );
