@@ -17,7 +17,7 @@ export function SideDashboard() {
     <NavigationMenu className="h-screen w-64 border-r p-4">
       <NavigationMenuList className="flex flex-col gap-3">
         <NavigationMenuItem className="w-full">
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/teams" legacyBehavior passHref>
             <NavigationMenuLink
               className={`${navigationMenuTriggerStyle()} hover:bg-hover-primary flex min-w-full justify-around`}
             >

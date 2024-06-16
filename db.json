@@ -1,0 +1,109 @@
+{
+  "tournament": {
+    "id": 1,
+    "name": "Summer Championship",
+    "start_date": "2024-07-01",
+    "end_date": null,
+    "type": "single elimination"
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "Team 1",
+      "tournament_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Team 2",
+      "tournament_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Team 3",
+      "tournament_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Team 4",
+      "tournament_id": 1
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Player 1",
+      "team_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Player 2",
+      "team_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Player 3",
+      "team_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Player 4",
+      "team_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Player 5",
+      "team_id": 3
+    },
+    {
+      "id": 6,
+      "name": "Player 6",
+      "team_id": 3
+    },
+    {
+      "id": 7,
+      "name": "Player 7",
+      "team_id": 4
+    },
+    {
+      "id": 8,
+      "name": "Player 8",
+      "team_id": 4
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "tournament_id": 1,
+      "round_number": 1,
+      "team1_id": 1,
+      "team2_id": 2,
+      "team1_score": 3,
+      "team2_score": 2,
+      "winner_id": 1
+    },
+    {
+      "id": 2,
+      "tournament_id": 1,
+      "round_number": 1,
+      "team1_id": 3,
+      "team2_id": 4,
+      "team1_score": null,
+      "team2_score": null,
+      "winner_id": null
+    }
+  ],
+  "rounds": [
+    {
+      "id": 1,
+      "tournament_id": 1,
+      "round_number": 1,
+      "description": "Quarterfinals"
+    },
+    {
+      "id": 2,
+      "tournament_id": 1,
+      "round_number": 2,
+      "description": "Semifinals"
+    }
+  ]
+}
